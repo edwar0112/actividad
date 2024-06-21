@@ -5,16 +5,7 @@
 }
 
 .body {
-  font-size: 12px;
-}
-
-.goku {
-  display: block;
-  text-align: center;
-  width: 600px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  filter: drop-shadow(10px 10px 20px yellow);
+  font-size: 18px;
 }
 
 .spidy {
@@ -26,17 +17,40 @@
   box-sizing: border-box;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  box-shadow: 15px 0px 15px 0px #2d2d2d;
+  box-shadow: 10px 10px 0 0 #000;
 }
+
 .cajita {
   width: 700px;
   height: 400px;
   background: white;
   place-content: center;
   text-align: center;
-  font-size: 2rem;
-  margin: 0 auto;
+  margin: 40px auto;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow: 15px 10px 15px 0px #2d2d2d;
+  box-shadow: 5px 10px 10px #000;
+  padding: 0 0 30px;
+}
+
+.boton {
+  background: #ac0202;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 13px 0;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.goku {
+  display: block;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  filter: drop-shadow(15px 15px 20px yellow);
 }
